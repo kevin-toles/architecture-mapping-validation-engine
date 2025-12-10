@@ -1,0 +1,7 @@
+organization=kevin-toles
+projectKey=architecture-mapping-validation-engine
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.77094
+dashboardUrl=https://sonarcloud.io/dashboard?id=architecture-mapping-validation-engine
+ceTaskId=AZr3zUK0b8-m9PewPq5T
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AZr3zUK0b8-m9PewPq5T

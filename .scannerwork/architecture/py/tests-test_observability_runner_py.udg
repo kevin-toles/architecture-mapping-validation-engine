@@ -1,0 +1,611 @@
+
+1.0PythonFrontend"1765094011365*py2.BÕ'
+
+imports1
+
+extends2
+
+returns3
+
+	has param4
+
+module5
+
+
+class6
+
+function7
+'
+"tests/test_observability_runner.py9
+%
+tests.test_observability_runner11
+	
+ast12
+
+
+json14
+
+os16
+	
+sys18
+
+tempfile20
+
+textwrap22
+
+unittest24
+
+pathlib26
+
+typing28
+
+unittest.mock30
+
+shutil32
+8
+2observability_platform.src.jsonl_logger.log_record34
+6
+0observability_platform.src.jsonl_logger.LOG_FILE36
+:
+4observability_platform.src.jsonl_logger.set_log_file38
+<
+6observability_platform.src.jsonl_logger.reset_log_file40
+-
+'observability_platform.src.jsonl_logger42
+
+dataclasses44
+7
+1observability_platform.src.data_classes.Component46
+-
+'observability_platform.src.data_classes48
+:
+4observability_platform.src.data_classes.Relationship50
+)
+#system_observability_runner.now_iso52
+!
+system_observability_runner54
+
+datetime56
+*
+$system_observability_runner.Scenario58
+.
+(system_observability_runner.ScenarioStep60
+:
+4system_observability_runner.get_scenario_definitions62
+(
+"system_observability_runner.new_id64
+:
+4system_observability_runner.get_architecture_context66
+:
+4system_observability_runner.log_architecture_context68
++
+%system_observability_runner.Component70
+:
+4observability_platform.src.jsonl_logger.validate_log72
+9
+3tests.test_observability_runner.TestTypeAnnotations74
+
+unittest.case.TestCase76
+D
+>tests.test_observability_runner.TestTypeAnnotations.setUpClass78
+j
+dtests.test_observability_runner.TestTypeAnnotations.test_all_public_functions_have_return_type_hints80
+f
+`tests.test_observability_runner.TestTypeAnnotations.test_all_function_parameters_have_type_hints82
+b
+\tests.test_observability_runner.TestTypeAnnotations.test_optional_return_types_are_annotated84
+;
+5tests.test_observability_runner.TestExceptionHandling86
+^
+Xtests.test_observability_runner.TestExceptionHandling.test_exceptions_capture_error_type88
+F
+@tests.test_observability_runner.TestExceptionHandling.setUpClass90
+W
+Qtests.test_observability_runner.TestExceptionHandling.test_no_bare_except_clauses92
+5
+/tests.test_observability_runner.TestJSONLSchema94
+_
+Ytests.test_observability_runner.TestJSONLSchema.test_component_record_has_valid_structure96
+`
+Ztests.test_observability_runner.TestJSONLSchema.test_relationship_record_validates_from_to98
+?
+8tests.test_observability_runner.TestJSONLSchema.tearDown100
+Z
+Stests.test_observability_runner.TestJSONLSchema.test_log_record_has_required_fields102
+S
+Ltests.test_observability_runner.TestJSONLSchema.test_timestamp_format_is_iso104
+<
+5tests.test_observability_runner.TestJSONLSchema.setUp106
+<
+5tests.test_observability_runner.TestScenarioExecution108
+d
+]tests.test_observability_runner.TestScenarioExecution.test_all_scenarios_have_required_fields110
+[
+Ttests.test_observability_runner.TestScenarioExecution.test_new_id_has_correct_prefix112
+g
+`tests.test_observability_runner.TestScenarioExecution.test_get_scenario_definitions_returns_dict114
+]
+Vtests.test_observability_runner.TestScenarioExecution.test_new_id_generates_unique_ids116
+a
+Ztests.test_observability_runner.TestScenarioExecution.test_scenario_steps_execute_in_order118
+6
+/tests.test_observability_runner.TestDataClasses120
+_
+Xtests.test_observability_runner.TestDataClasses.test_scenario_has_empty_steps_by_default122
+_
+Xtests.test_observability_runner.TestDataClasses.test_scenario_step_has_sensible_defaults124
+[
+Ttests.test_observability_runner.TestDataClasses.test_component_has_sensible_defaults126
+?
+8tests.test_observability_runner.TestArchitecturePatterns128
+c
+\tests.test_observability_runner.TestArchitecturePatterns.test_log_repository_protocol_exists130
+r
+ktests.test_observability_runner.TestArchitecturePatterns.test_architecture_context_is_separate_from_logging132
+J
+Ctests.test_observability_runner.TestArchitecturePatterns.setUpClass134
+c
+\tests.test_observability_runner.TestArchitecturePatterns.test_events_defined_for_discoveries136
+>
+7tests.test_observability_runner.TestCognitiveComplexity138
+h
+atests.test_observability_runner.TestCognitiveComplexity.test_log_architecture_complexity_under_15140
+e
+^tests.test_observability_runner.TestCognitiveComplexity.test_all_functions_complexity_under_15142
+`
+Ytests.test_observability_runner.TestCognitiveComplexity.test_function_line_count_under_50144
+d
+]tests.test_observability_runner.TestCognitiveComplexity.test_run_scenario_complexity_under_15146
+I
+Btests.test_observability_runner.TestCognitiveComplexity.setUpClass148
+^
+Wtests.test_observability_runner.TestCognitiveComplexity._calculate_cognitive_complexity150
+
+
+int152
+
+_ast.FunctionDef154
+6
+/tests.test_observability_runner.TestValidateLog156
+<
+5tests.test_observability_runner.TestValidateLog.setUp158
+?
+8tests.test_observability_runner.TestValidateLog.tearDown160
+g
+`tests.test_observability_runner.TestValidateLog.test_validate_log_returns_error_for_missing_file162
+\
+Utests.test_observability_runner.TestValidateLog.test_validate_log_counts_record_types164J
+
+8
+89jÔ
+ 
+10
+10115 *
+8 (
+
+13
+13125
+
+15
+15145
+
+17
+17165
+
+19
+19185
+
+21
+21205
+
+23
+23225
+
+25
+25245
+
+27
+27265
+
+29
+29285
+
+31
+31305
+
+33
+33325
+
+35
+35345
+
+37
+37365
+
+39
+39385
+
+41
+41405
+
+43
+43425
+
+45
+45445
+
+47
+47465
+
+49
+49485
+
+51
+51505
+
+53
+53525
+
+55
+55545
+
+57
+57565
+
+59
+59585
+
+61
+61605
+
+63
+63625
+
+65
+65645
+
+67
+67665
+
+69
+69685
+
+71
+71705
+
+73
+73725
+
+75
+75746 210
+
+77
+77766
+
+79
+79787 275
+
+81
+81807 275
+
+83
+83827 275
+
+85
+85847 275
+
+87
+87866 210
+
+89
+89887 287
+
+91
+91907 287
+
+93
+93927 287
+
+95
+95946 210
+
+97
+97967 295
+
+99
+99987 295
+
+101
+1011007 295
+
+103
+1031027 295
+
+105
+1051047 295
+
+107
+1071067 295
+
+109
+1091086 210
+
+111
+1111107 2109
+
+113
+1131127 2109
+
+115
+1151147 2109
+
+117
+1171167 2109
+
+119
+1191187 2109
+
+121
+1211206 210
+
+123
+1231227 2121
+
+125
+1251247 2121
+
+127
+1271267 2121
+
+129
+1291286 210
+
+131
+1311307 2129
+
+133
+1331327 2129
+
+135
+1351347 2129
+
+137
+1371367 2129
+
+139
+1391386 210
+
+141
+1411407 2139
+
+143
+1431427 2139
+
+145
+1451447 2139
+
+147
+1471467 2139
+
+149
+1491487 2139
+
+151
+1511507 2139
+
+153
+1531526
+
+155
+1551546
+
+157
+1571566 210
+
+159
+1591587 2157
+
+161
+1611607 2157
+
+163
+1631627 2157
+
+165
+1651647 2157r
+
+10131*
+8 (
+
+10151*
+8 (
+
+10171*
+8 (
+
+
+10191*
+8 (
+
+10211*
+8 (
+
+10231*
+8 (
+
+10251*
+8 (
+
+10271*
+8 (
+
+10291*
+8 ((
+
+10311*
+8   (+
+
+10331*
+8ó ó(
+
+10351*
+8ø= ø(G
+
+10371*
+8øI ø(Q
+
+10391*
+8øS ø(_
+
+10411*
+8øa ø(o
+
+10431*
+8ø	 ø(o
+
+10451*
+8‹	 ‹('
+
+10471*
+8Œ= Œ(F
+
+10491*
+8Œ	 Œ(F
+
+10451*
+8Ÿ	 Ÿ('
+
+10511*
+8 =  (I
+
+10491*
+8 	  (I
+
+10531*
+8²1 ²(8
+
+10551*
+8²	 ²(8
+
+10571*
+8º	 º(&
+
+10591*
+8Ó Ó(
+
+10611*
+8Ó Ó(#
+
+10631*
+8Ó% Ó(=
+
+10551*
+8Ò	 Ó(=
+
+10651*
+8ã1 ã(7
+
+10551*
+8ã	 ã(7
+
+10651*
+8í1 í(7
+
+10551*
+8í	 í(7
+
+10631*
+8÷1 ÷(I
+
+10551*
+8÷	 ÷(I
+
+10631*
+8€1 €(I
+
+10551*
+8€	 €(I
+
+10671*
+8Ì Ì(%
+
+10691*
+8Ì' Ì(?
+
+10551*
+8Ë	 Ì(?
+
+10711*
+8è1 è(:
+
+10551*
+8è	 è(:
+
+10611*
+8ö1 ö(=
+
+10551*
+8ö	 ö(=
+
+10591*
+8„1 „(9
+
+10551*
+8„	 „(9
+
+10331*
+8   (
+
+10731*
+8¥= ¥(I
+
+10391*
+8¥K ¥(W
+
+10411*
+8¥Y ¥(g
+
+10431*
+8¥	 ¥(g
+
+10731*
+8²= ²(I
+
+10391*
+8²K ²(W
+
+10411*
+8²Y ²(g
+
+10431*
+8²	 ²(g
+
+75772*
+8- -(
+
+87772*
+8§ §(
+
+95772*
+8á á(
+
+109772*
+8Æ Æ(
+
+121772*
+8Ý Ý(
+
+129772*
+8— —(
+
+139772*
+8 (
+
+1511533*
+8µ	 µ((
+
+1511554*
+8µ	 µ((
+
+157772*
+8” ”(

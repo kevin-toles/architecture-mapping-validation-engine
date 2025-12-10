@@ -1,0 +1,69 @@
+
+,src.request_logging.RequestLoggingMiddleware]
+S/Users/kevintoles/POC/architecture-mapping-validation-engine/src/request_logging.py8 8("2*‡
+2> E(p
+n
+F F(7.
+,src.request_logging.RequestLoggingMiddleware"
+app"__id*#
+
+__unknown_file (
+
+app~
+|
+G G($>.
+,src.request_logging.RequestLoggingMiddleware"
+
+log_stream"__id**
+
+__unknown_file (
+
+
+log_stream*
+4
+5*k
+3
+request_logging.py><
+J J(
+%1",src.request_logging.RequestLoggingMiddleware"
+J J(
+
+%1*[
+4H H(*G
+E
+H H(*
+%2"__id*-
+
+__unknown_file (
+
+exclude_paths*
+6*j
+5H. H(0
+H. H(0
+%3"list<
+:
+H. H(0
+%2"__id*"
+
+__unknown_file (
+
+%3*
+6*
+6H/ H(0y
+w
+H H(0A.
+,src.request_logging.RequestLoggingMiddleware"
+exclude_paths"__id*"
+
+__unknown_file (
+
+%2*
+3:
+: :(
+app:
+; ;(-
+
+log_stream:
+< <(1
+exclude_pathsB0.
+,src.request_logging.RequestLoggingMiddlewareH

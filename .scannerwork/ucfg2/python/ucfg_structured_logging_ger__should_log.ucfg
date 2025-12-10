@@ -1,0 +1,64 @@
+
+3src.structured_logging.StructuredLogger._should_log`
+V/Users/kevintoles/POC/architecture-mapping-validation-engine/src/structured_logging.pyU U("2*∂
+2V V(?q
+o
+W W(%
+%1"__id*W
+
+__unknown_file (;*9)
+'src.structured_logging.StructuredLogger"
+
+LOG_LEVELSKI
+W* W(7
+%2"	str.upper*%
+
+__unknown_file (	
+
+level2upperÅ
+W W(<
+%3*"
+
+__unknown_file (
+
+%1*"
+
+__unknown_file (
+
+%2* 
+
+__unknown_file (22getE
+C
+W W(<
+level_value"__id*"
+
+__unknown_file (
+
+%3r
+p
+X X(.
+%4"__id*X
+
+__unknown_file (<*:)
+'src.structured_logging.StructuredLogger"
+level_valueì
+ê
+X X(.
+%5"	__compare*"
+
+__unknown_file (
+>=*+
+
+__unknown_file (
+
+level_value*"
+
+__unknown_file (
+
+%4"
+X X(.
+
+%5:
+U U($
+levelB+)
+'src.structured_logging.StructuredLoggerH

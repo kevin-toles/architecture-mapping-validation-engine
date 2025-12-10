@@ -1,0 +1,222 @@
+
+1.0PythonFrontend"1765094011313*py2.B∂
+
+imports1
+
+extends2
+
+returns3
+
+	has param4
+
+module5
+
+
+class6
+
+function7
+
+src/structured_logging.py9
+
+src.structured_logging11
+
+
+json12
+	
+sys14
+
+contextvars16
+
+datetime18
+
+io20
+
+typing22
+'
+!src.structured_logging.get_logger24
+-
+'src.structured_logging.StructuredLogger26
+	
+str28
+/
+)src.structured_logging.set_correlation_id30
+1
++src.structured_logging.clear_correlation_id32
+2
+,src.structured_logging.StructuredLogger.info34
+
+
+dict36
+3
+-src.structured_logging.StructuredLogger.error38
+2
+,src.structured_logging.StructuredLogger._log40
+6
+0src.structured_logging.StructuredLogger.critical42
+5
+/src.structured_logging.StructuredLogger.warning44
+6
+0src.structured_logging.StructuredLogger.__init__46
+3
+-src.structured_logging.StructuredLogger.debug48
+9
+3src.structured_logging.StructuredLogger._should_log50
+
+
+bool52
+/
+)src.structured_logging.get_correlation_id54J
+
+8
+89jí
+ 
+10
+10115 *
+8 (
+
+13
+13125
+
+15
+15145
+
+17
+17165
+
+19
+19185
+
+21
+21205
+
+23
+23225
+
+25
+25247 210
+
+27
+27266 210
+
+29
+29286
+
+31
+31307 210
+
+33
+33327 210
+
+35
+35347 227
+
+37
+37366
+
+39
+39387 227
+
+41
+41407 227
+
+43
+43427 227
+
+45
+45447 227
+
+47
+47467 227
+
+49
+49487 227
+
+51
+51507 227
+
+53
+53526
+
+55
+55547 210r–
+
+10131*
+8 (
+
+10151*
+8 (
+
+10171*
+8 (#
+
+10191*
+8 ((
+
+10211*
+8 (
+
+10231*
+8 (!
+
+25273*
+8é é(
+
+25294*
+8é é(
+
+25294*
+8é é(
+
+31294*
+8" "(
+
+35294*
+8}	 }(
+
+35374*
+8}	 }(
+
+39294*
+8Ö	 Ö(
+
+39374*
+8Ö	 Ö(
+
+41294*
+8Z	 Z(
+
+41294*
+8Z	 Z(
+
+41374*
+8Z	 Z(
+
+43294*
+8â	 â(
+
+43374*
+8â	 â(
+
+45294*
+8Å	 Å(
+
+45374*
+8Å	 Å(
+
+47294*
+8B	 B(
+
+47294*
+8B	 B(
+
+49294*
+8y	 y(
+
+49374*
+8y	 y(
+
+51533*
+8U	 U(
+
+51294*
+8U	 U(

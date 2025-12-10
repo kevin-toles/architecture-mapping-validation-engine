@@ -1,0 +1,273 @@
+
+1.0PythonFrontend"1765094011398*py2.B±
+
+imports1
+
+extends2
+
+returns3
+
+	has param4
+
+module5
+
+
+class6
+
+function7
+'
+"src/system_observability_runner.py9
+%
+src.system_observability_runner11
+
+argparse12
+	
+sys14
+
+pathlib16
+6
+0observability_platform.src.jsonl_logger.LOG_FILE18
+<
+6observability_platform.src.jsonl_logger.SCHEMA_VERSION20
+:
+4observability_platform.src.jsonl_logger.GENERATOR_ID22
+B
+<observability_platform.src.jsonl_logger.ensure_log_directory24
+8
+2observability_platform.src.jsonl_logger.log_record26
+9
+3observability_platform.src.jsonl_logger.log_records28
+4
+.observability_platform.src.jsonl_logger.new_id30
+5
+/observability_platform.src.jsonl_logger.now_iso32
+:
+4observability_platform.src.jsonl_logger.validate_log34
+-
+'observability_platform.src.jsonl_logger36
+7
+1observability_platform.src.data_classes.Component38
+>
+8observability_platform.src.data_classes.EntityDefinition40
+?
+9observability_platform.src.data_classes.ProcessDefinition42
+:
+4observability_platform.src.data_classes.Relationship44
+6
+0observability_platform.src.data_classes.Scenario46
+:
+4observability_platform.src.data_classes.ScenarioStep48
+A
+;observability_platform.src.data_classes.StepExecutionResult50
+-
+'observability_platform.src.data_classes52
+N
+Hobservability_platform.src.architecture_context.get_architecture_context54
+I
+Cobservability_platform.src.architecture_context.get_runtime_context56
+N
+Hobservability_platform.src.architecture_context.log_architecture_context58
+5
+/observability_platform.src.architecture_context60
+6
+0scripts.scenario_runner.get_scenario_definitions62
+*
+$scripts.scenario_runner.run_scenario64
+2
+,scripts.scenario_runner.log_state_transition66
+/
+)scripts.scenario_runner.print_log_summary68
+
+scripts.scenario_runner70
+*
+$src.system_observability_runner.main72J
+
+8
+89jı
+ 
+10
+10115 *
+8 (
+
+13
+13125
+
+15
+15145
+
+17
+17165
+
+19
+19185
+
+21
+21205
+
+23
+23225
+
+25
+25245
+
+27
+27265
+
+29
+29285
+
+31
+31305
+
+33
+33325
+
+35
+35345
+
+37
+37365
+
+39
+39385
+
+41
+41405
+
+43
+43425
+
+45
+45445
+
+47
+47465
+
+49
+49485
+
+51
+51505
+
+53
+53525
+
+55
+55545
+
+57
+57565
+
+59
+59585
+
+61
+61605
+
+63
+63625
+
+65
+65645
+
+67
+67665
+
+69
+69685
+
+71
+71705
+
+73
+73727 210rå
+
+10131*
+8 (
+
+10151*
+8 (
+
+10171*
+8 (
+
+10191*
+8& &(
+
+10211*
+8' '(
+
+10231*
+8( ((
+
+10251*
+8) )(
+
+10271*
+8* *(
+
+10291*
+8+ +(
+
+10311*
+8, ,(
+
+10331*
+8- -(
+
+10351*
+8. .(
+
+10371*
+8% .(
+
+10391*
+82 2(
+
+10411*
+83 3(
+
+10431*
+84 4(
+
+10451*
+85 5(
+
+10471*
+86 6(
+
+10491*
+87 7(
+
+10511*
+88 8(
+
+10531*
+81 8(
+
+10551*
+8< <(
+
+10571*
+8= =(
+
+10591*
+8> >(
+
+10611*
+8; >(
+
+10631*
+8C C(
+
+10651*
+8D D(
+
+10671*
+8E E(
+
+10691*
+8F F(
+
+10711*
+8B F(

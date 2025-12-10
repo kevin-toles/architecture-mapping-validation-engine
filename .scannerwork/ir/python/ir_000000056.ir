@@ -1,0 +1,12 @@
+
+ÛÑ"
+    Generate a unique ID with prefix.
+    
+    Args:
+        prefix: Prefix string (e.g., 'trc', 'evt', 'svc')
+        
+    Returns:
+        Unique ID in format 'prefix_hexstring' (e.g., 'trc_01HF...')
+    "str
++""{prefix}_{uuid.uuid4().hex[:16]}"strprefixM M("
+W W(.*P/Users/kevintoles/POC/architecture-mapping-validation-engine/src/jsonl_logger.py
